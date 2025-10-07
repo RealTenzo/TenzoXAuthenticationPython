@@ -1,5 +1,5 @@
-app_name = "app1"
-secret = "G2kzmLln6XW0QauafrOXjZbZPSz2"
+app_name = "example"
+secret = "example"
 version = "1.0"
 
 from tenzoxauth import TenzoAuth
@@ -49,4 +49,5 @@ def main():
     input("\nPress Enter to exit...")
 
 if __name__ == "__main__":
+
     main()
