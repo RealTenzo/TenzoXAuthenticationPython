@@ -29,7 +29,7 @@ pip install requests
 git clone https://github.com/yourusername/TenzoXAuthenticationPython.git
 ```
 
-2. Include `tenzo_auth.py` and `message.py` in your project.
+2. Include `tenzo_auth.py` in your project.
 3. Ensure the `requests` library is installed.
 
 ## Usage Example
