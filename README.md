@@ -2,7 +2,7 @@
 
 **TenzoXAuthenticationPython** is a simple Python library for adding **authentication and licensing** functionality to your applications. It provides **login, registration, license validation, and version checking** features with just a few lines of code. Ideal for developers who want to secure their Python apps easily.
 
-**Website:** [https://txabeta.netlify.app/](https://txabeta.netlify.app/)
+**Website:** [https://tenxoxauthentication.qzz.io]([https://txabeta.netlify.app/](https://tenxoxauthentication.qzz.io))
 
 ## Features
 
@@ -29,29 +29,10 @@ pip install requests
 git clone https://github.com/yourusername/TenzoXAuthenticationPython.git
 ```
 
-2. Include `tenzo_auth.py` in your project.
+2. Include `txa.py` in your project.
 3. Ensure the `requests` library is installed.
 
-## Usage Example
 
-```python
-from tenzo_auth import TenzoAuth
-
-# Initialize auth
-auth = TenzoAuth(version="1.0", app_name="AppName", secret_key="SecretKey")
-
-# Login
-if auth.login("username", "password"):
-    print(f"Login successful!\nUser: {auth.get_current_username()}\nExpiry: {auth.get_expiry_date()}")
-else:
-    print("Login failed:", auth.get_last_status_message())
-
-# Register
-if auth.register("username", "password", "license"):
-    print(f"Registration successful!\nUser: {auth.get_current_username()}\nExpiry: {auth.get_expiry_date()}")
-else:
-    print("Registration failed:", auth.get_last_status_message())
-```
 
 ## Notes
 
