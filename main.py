@@ -1,7 +1,7 @@
 from txa import TXA
 
 def main():
-    txa = TXA("tenzo", "6026bb04699ffdca3f4b8211c2c3d8d7", "1.0")
+    txa = TXA("", "", "1.0")
     
     txa.init()
     print(f"Initialization: {txa.response}")
@@ -76,3 +76,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
